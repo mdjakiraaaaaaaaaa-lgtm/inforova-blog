@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /config/
+Disallow: /includes/
+Disallow: /sql/
+Sitemap: https://inforova.xyz/sitemap.xml

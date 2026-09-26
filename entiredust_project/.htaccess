@@ -1,0 +1,14 @@
+Options -Indexes
+RewriteEngine On
+<IfModule mod_headers.c>
+Header always set X-Content-Type-Options "nosniff"
+Header always set X-Frame-Options "DENY"
+Header always set Referrer-Policy "strict-origin-when-cross-origin"
+Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+</IfModule>
+RewriteRule ^sitemap\.xml$ /sitemap.php [L]
+
+# Never expose environment files, logs, backups or database dumps.
+<FilesMatch "^(\.env|\.env\..*|.*\.(?:log|sql|bak|ini|config))$">
+    Require all denied
+</FilesMatch>
