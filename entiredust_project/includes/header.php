@@ -7,12 +7,13 @@ seedInforovaExpansion($pdo);
 $navCategories = $pdo->query('SELECT name,slug,icon FROM categories ORDER BY name')->fetchAll();
 ?>
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="monetag" content="b7b81d0557b2d82156133481b5e66607">
 <title><?=e($page_title??APP_NAME)?> | <?=e(APP_NAME)?></title>
 <meta name="description" content="<?=e($page_desc??'Independent news, exam preparation and useful guides.')?>">
 <link rel="canonical" href="<?=e($canonical??base_url(ltrim($_SERVER['REQUEST_URI']??'','/')))?>">
 <link rel="preconnect" href="https://images.unsplash.com">
 <link rel="stylesheet" href="<?=e(base_url('assets/css/style.css'))?>">
-<meta name="monetag" content="b7b81d0557b2d82156133481b5e66607">
+<script>(function(s){s.dataset.zone='11942016',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
 </head><body>
 <header class="site-header">
   <div class="wrap nav">
