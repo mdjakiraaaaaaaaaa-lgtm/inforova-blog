@@ -14,6 +14,7 @@ $navCategories = $pdo->query('SELECT name,slug,icon FROM categories ORDER BY nam
 <link rel="preconnect" href="https://images.unsplash.com">
 <link rel="stylesheet" href="<?=e(base_url('assets/css/style.css'))?>">
 <script>(function(s){s.dataset.zone='11942016',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
+<script>(function(s){s.dataset.zone='11942266',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
 </head><body>
 <header class="site-header">
   <div class="wrap nav">
