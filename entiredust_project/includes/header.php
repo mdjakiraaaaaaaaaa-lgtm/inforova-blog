@@ -12,7 +12,7 @@ $navCategories = $pdo->query('SELECT name,slug,icon FROM categories ORDER BY nam
 <link rel="canonical" href="<?=e($canonical??base_url(ltrim($_SERVER['REQUEST_URI']??'','/')))?>">
 <link rel="preconnect" href="https://images.unsplash.com">
 <link rel="stylesheet" href="<?=e(base_url('assets/css/style.css'))?>">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1690994340482950" crossorigin="anonymous"></script>
+<meta name="monetag" content="b7b81d0557b2d82156133481b5e66607">
 </head><body>
 <header class="site-header">
   <div class="wrap nav">
